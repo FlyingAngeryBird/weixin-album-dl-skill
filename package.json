@@ -1,0 +1,35 @@
+{
+  "name": "weixin-album-dl",
+  "version": "1.0.0",
+  "description": "下载微信公众号合集（专辑）全部文章，含正文和图片，生成 Markdown 索引 — 零依赖，纯 Node.js",
+  "keywords": [
+    "wechat",
+    "weixin",
+    "微信公众号",
+    "album",
+    "合集",
+    "downloader",
+    "scraper",
+    "markdown"
+  ],
+  "license": "MIT",
+  "author": "SlowGrowth1314",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SlowGrowth1314/weixin-album-dl.git"
+  },
+  "homepage": "https://github.com/SlowGrowth1314/weixin-album-dl#readme",
+  "bugs": {
+    "url": "https://github.com/SlowGrowth1314/weixin-album-dl/issues"
+  },
+  "type": "module",
+  "bin": {
+    "weixin-album-dl": "./weixin-album-dl.mjs"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "files": [
+    "weixin-album-dl.mjs"
+  ]
+}
