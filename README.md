@@ -5,10 +5,9 @@
 [![License](https://img.shields.io/badge/license-MIT-blue)](./LICENSE)
 [![PRs](https://img.shields.io/badge/PRs-welcome-brightgreen)](https://github.com/SlowGrowth1314/weixin-album-dl/pulls)
 
-> 下载微信公众号合集（专辑）全部文章，含正文和图片，生成 Markdown 索引。
+> 批量下载微信公众号合集（专辑）全部文章，含正文和图片，生成 Markdown 索引。
 >
-> **零依赖。纯 Node.js。无需浏览器。无需登录。**
-
+> 
 ## 目录
 
 - [功能](#功能)
@@ -29,7 +28,6 @@
 
 ## 功能
 
-- 🚀 **零依赖** — 仅需 Node.js >= 18，无需 `npm install`，无需浏览器
 - 📋 **自动获取文章列表** — 通过微信公开 API，无需登录 / Cookie / Chrome
 - 📥 **下载正文 + 图片** — 直接 HTTP 抓取，内置 HTML → Markdown 转换
 - 🔄 **断点续传** — 中断后重跑自动跳过已下载文章
@@ -41,7 +39,6 @@
 
 - **Node.js >= 18**（需要内置 `fetch` 支持）
 
-仅此而已。无需安装任何 npm 包，无需 Chrome 浏览器或任何扩展。
 
 验证你的 Node 版本：
 
